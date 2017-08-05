@@ -1,0 +1,422 @@
+html {
+	font-family: 'Open Sans', 'Verdana', 'Sans-Serif';
+    color: #5E5E5F;
+}
+
+body {
+	background-color: #eee; 
+}
+
+a {
+    color: rgb(113, 152, 252);
+    text-decoration: none;
+    font: inherit;
+}
+
+a:hover {
+    color: #ccc;
+    transition: color .25s ease-in-out;    
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+#header {
+	position: relative; 
+	width: 100%;
+	background-color: white;
+	color: white;
+	box-shadow: 0 10px 10px -6px rgb(148, 171, 221);     
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+#header .inner-content {
+    width: 800px;
+    padding: 0 0 20px 0;
+    color: #5E5E5F;
+    text-align: center;
+}
+
+#header .inner-content img {
+    padding-bottom: 20px;
+}
+
+nav {
+    display: inline-block;  
+    padding: 0 0 20px 0;  
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;    
+    font-size: 1em;
+    height: 1em;
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 5px 0 12px 0;
+    z-index: 1000;
+    box-shadow: 0 10px 7px -6px rgb(210, 210, 210);
+}
+
+blockquote {    
+    line-height: 20px;
+    font-size: 16px;
+	position: relative;	
+	border-left: solid #6E9EFB 8px;
+	padding-left: 0;
+}
+
+blockquote::before {
+    display: block;
+	width: 50px;
+	content: "“";	
+	font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+	color: #6E9EFB;
+	float: left;
+}
+
+cite {
+	text-align: center;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+	left: 14px;
+	width: inherit;
+	position: absolute;
+	bottom: 0;	
+}
+
+nav ul {	
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+    width: 220px;	
+	font-size: 1.5em;  
+}
+
+nav ul li a:hover .sub-nav {
+    opacity: 1;    
+}
+
+nav ul li .sub-nav {
+    font-size: .5em;
+    display: block;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.inner-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.inner-content  h2, h3, h4 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #5E5E5F;	
+    padding: 40px 0 40px 0; 
+}
+
+.inner-content h2 {
+    font-size: 3em;     
+    padding: 60px 0 60px 0;
+}
+
+.inner-content h3 {
+    color: #6E9EFB;
+	font-size: 1.8em;
+}
+
+.inner-content h4 {
+    color: #6E9EFB;
+    margin-top: 0;
+    padding: 0 0 14px 0;
+    font-size: 1.7em;
+    text-align: left;    
+}
+
+.light-background {
+    background-color: white;
+    opacity: 1;
+    padding: 20px 14px 20px 14px;
+    margin: 10px;
+    border-radius: 8px;        
+	box-shadow: 0px 0px 10px 0px rgb(148, 171, 221);   
+}
+
+.dark-background {
+    background-color: #ecf0f1;
+    opacity: .7;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;    
+    box-shadow: 0px 0px 10px 0px rgb(126, 126, 126);
+}
+
+#cat5 {
+    padding-bottom: 30px;
+    background-color: #E4ECFF;      
+}
+
+#cat5 img {
+    width: 560px;
+}
+
+#cat5 .summary {
+    text-align: center;    
+}
+
+#cat5 .summary div {   
+    text-align: left;
+    display: inline-block;
+    width: 480px;
+    vertical-align: top;
+}
+
+#cat5 .summary p {
+    display: inline-block;
+    width: 500px;
+    padding-bottom: 8px;
+}
+
+#cat5 .summary ul {
+    padding: 0 0 16px 0;    
+}
+
+#cat5 .summary img {
+    margin-left: 40px;
+}
+
+#cat5 .tag {
+    font-size: .8em;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-style: italic;
+}
+
+#cat5 .testimonies {
+    text-align: center;
+    padding: 0;	
+}
+
+#cat5 .testimonies blockquote {
+	vertical-align: top;
+    width: 260px;
+	height: 200px;
+    display: inline-block;
+}
+
+#cat5 li {
+    padding: 4px 0 4px 0;
+    font-size: 22px;
+}
+
+#cat5 .demo {
+    margin-left: auto;
+    margin-right: auto;       
+}   
+
+#cat5 .demo-form {    
+    height: auto;    
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+#cat5 .demo-form input {
+    padding: 10px;    
+    border: 0;
+    border-bottom: 1px solid #c9c9c9;    
+    width: 300px;    
+    font: inherit;
+}
+
+#cat5 .demo-form input:focus {
+    border-bottom-color: blue;   
+}
+
+#cat5 .demo-form a {    
+    display: inline-block;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    transition: background-color 0.25s ease;
+    transition: color 0.25s ease;
+}
+
+#cat5 .demo-form a:hover {
+    background-color: #E4ECFF;  
+    color: #5E5E5F;
+}
+
+#consulting {
+    padding-bottom: 30px;
+    background-color: #fff;     
+    text-align: center;
+}
+
+#consulting blockquote {
+    height: 240px;
+    width: 980px;
+    text-align: center;
+    margin-left: -10px;
+}
+
+#consulting img {
+    width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#consulting blockquote p {
+    text-align: justify;
+}
+
+.clients {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.clients i {
+    margin-bottom: 8px;
+}
+
+.clients div {
+    width: 220px;
+    display: inline-block;
+}
+
+#contact {
+	padding-bottom: 40px;
+	background-color: #E4ECFF; 
+}
+
+.via {
+    text-align: center;
+    padding: 0;
+}
+
+.via i {
+    margin-bottom: 8px;
+}
+
+.via div {
+    width: 250px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    height: 60px;
+    line-height: 60px;
+}
+
+
+@media (max-width : 1200px) {
+    #cat5 .summary div {        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    
+    #cat5 .summary img {
+        margin: 0;        
+    }
+}
+
+@media (max-width : 1000px) {
+    #cat5 .demo {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+    
+    #consulting blockquote {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width : 970px) {
+    .inner-content {
+        width: 100%;
+    }
+    
+    #cat5 .testimonies blockquote {
+        width: 300px;
+    }
+}
+
+@media (max-width : 940px) {
+    #cat5 .demo {
+        width: 85%;
+        font-size: 0.8em;
+    }
+    
+    #consulting blockquote {
+        font-size: .8em;
+    }
+    
+    #consulting img {
+        400px;
+    }
+    
+    .inner-content h2 {
+        font-size: 2.8em;
+        padding: 20px 0 20px 0;
+        margin: 0;
+    }
+    
+    .inner-content h3, .inner-content h4 {
+        font-size: 1.6em;
+        padding: 20px 0 20px 0;
+        margin: 0;
+    }
+            
+    #consulting .inner-content i {
+        font-size: 4em;
+    }
+}
+
+@media (max-width:825px) {
+    #header .inner-content {
+        width: 100%;
+    }
+    #consulting blockquote {
+        width: 85%;
+    }    
+}
+
+@media (max-width: 717px) {
+    #cat5 .testimonies blockquote {
+        width: 85%;
+    }
+}
+
+@media (max-width : 670px) {
+    nav ul li {
+        width: 30%;
+    }
+    
+    #cat5 img, #consulting img {
+        width: 100%;
+    }
+}
